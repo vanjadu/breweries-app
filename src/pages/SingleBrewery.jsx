@@ -12,7 +12,7 @@ const SingleBrewery = () => {
 
   useEffect(() => {
     dispatch(fetchSingleBrewery(id))
-  }, [])
+  }, [dispatch, id])
 
   const { singleBrewery, loading } = useSelector((state) => state.singleBrewery)
 

@@ -11,7 +11,7 @@ const BreweryList = () => {
 
   useEffect(() => {
     dispatch(fetchBreweries())
-  }, [])
+  }, [dispatch])
 
   const { breweries, loading } = useSelector((state) => state.breweries)
 

@@ -8,7 +8,7 @@ const SearchBreweries = () => {
 
   useEffect(() => {
     dispatch(fetchBreweries(search))
-  }, [search])
+  }, [search, dispatch])
 
   return (
     <div className='container mt-6 flex flex-col items-center'>
