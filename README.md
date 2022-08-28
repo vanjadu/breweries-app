@@ -2,6 +2,10 @@
 
 An application that provides a list of breweries and their information.
 
+## Live preview
+
+https://vanjas-breweries-app.netlify.app/
+
 ## Open Brewery DB
 
 #### Get all breweries
